@@ -1,3 +1,4 @@
+/* Base styling for page */
 body {
   font-family: Arial, sans-serif;
   background: #000;
@@ -7,6 +8,7 @@ body {
   text-align: center;
 }
 
+/* Container box for profile content */
 .container {
   margin-top: 50px;
   padding: 20px;
@@ -19,6 +21,7 @@ body {
   border-radius: 15px;
 }
 
+/* Profile image styling */
 .profile-pic {
   width: 150px;
   height: 150px;
@@ -27,21 +30,25 @@ body {
   border: 4px solid #0077b5;
 }
 
+/* Name heading */
 h1 {
   margin: 15px 0 10px;
   color: #fff;
 }
 
+/* Description text */
 .description {
   color: #ccc;
   font-size: 16px;
   padding: 0 20px;
 }
 
+/* Container for buttons */
 .buttons {
   margin-top: 20px;
 }
 
+/* General button styling */
 .btn {
   display: inline-block;
   margin: 10px;
@@ -54,14 +61,17 @@ h1 {
   font-size: 16px;
 }
 
+/* Add space between icon and text */
 .btn i {
   margin-right: 8px;
 }
 
+/* Button hover effect */
 .btn:hover {
   background: #005582;
 }
 
+/* GitHub button with dark branding */
 .btn.github {
   background: #24292e;
 }
